@@ -42,3 +42,16 @@ testem.log
 Thumbs.db
 /Esame_Ifoa_Server/.vs/Esame_Ifoa_Server/CopilotIndices/17.14.698.11175
 /Esame_Ifoa_Server/.vs/Esame_Ifoa_Server/FileContentIndex
+/Esame_Ifoa_Server/.vs/Esame_Ifoa_Server/CopilotIndices/17.14.670.39694
+
+
+/Esame_Ifoa_Server/obj
+**/.vs
+**/Esame_Ifoa_Server/.vs
+/Esame_Ifoa_Server/.vs/Esame_Ifoa_Server/config/applicationhost.config
+/Esame_Ifoa_Server/.vs/Esame_Ifoa_Server/FileContentIndex/596cfe2f-21cd-4e6a-9595-a3fc56fbf64a.vsidx
+/Esame_Ifoa_Server/.vs/ProjectEvaluation/esame_ifoa_server.metadata.v9.bin
+/Esame_Ifoa_Server/.vs/ProjectEvaluation/esame_ifoa_server.projects.v9.bin
+/Esame_Ifoa_Server/bin/Debug/net8.0/Esame_Ifoa_Server.dll
+/Esame_Ifoa_Server/bin/Debug/net8.0/Esame_Ifoa_Server.exe
+/Esame_Ifoa_Server/bin/Debug/net8.0/Esame_Ifoa_Server.pdb

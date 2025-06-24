@@ -6,7 +6,7 @@ namespace EsameIfoa_Server.Controllers
 {
   [ApiController]
 
-  [Route("[controller]")]
+  [Route("api/[controller]")]
 
   public class ContactController(IContactService contactService) : ControllerBase
 
