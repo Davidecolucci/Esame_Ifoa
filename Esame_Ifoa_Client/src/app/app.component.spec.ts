@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'Esame_Ifoa_Client' title`, () => {
+  it(`should have the 'EsameIfoa_Client' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Esame_Ifoa_Client');
+    expect(app.title).toEqual('EsameIfoa_Client');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Esame_Ifoa_Client');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, EsameIfoa_Client');
   });
 });

@@ -1,0 +1,18 @@
+<div class="form-container">
+    <h2>Add contact</h2>
+    <form [formGroup]="form" (ngSubmit)="onsubmit()">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" formControlName="fullName" />
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" formControlName="phone" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" formControlName="email" />
+
+        <label for="department">Department</label>
+        <input type="department" id="department" name="department" formControlName="department" />
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
