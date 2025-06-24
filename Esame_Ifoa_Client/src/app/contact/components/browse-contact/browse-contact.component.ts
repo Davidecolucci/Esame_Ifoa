@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   selector: 'app-browse-contact',
   imports: [],
   templateUrl: './browse-contact.component.html',
-  styleUrl: './browse-contact.component.css'
+  styleUrl: './browse-contact.component.scss'
 })
 export class BrowseContactComponent implements OnInit {
 

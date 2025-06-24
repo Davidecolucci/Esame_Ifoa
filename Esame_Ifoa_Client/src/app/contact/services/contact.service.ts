@@ -9,7 +9,7 @@ import { ContactDto } from '../model/contact.dto';
 export class ContactService {
 
   private _http = inject(HttpClient);
-  private _apiUrl = ("https://localhost:7177/Contact");
+  private _apiUrl = ("https://localhost:44380/api/Contact");
   
   public getContacts(): Observable<ContactDto[]> {
     return this._http.get<ContactDto[]>(`${this._apiUrl}`);
